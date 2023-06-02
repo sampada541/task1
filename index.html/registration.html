@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Registration</h1>
+            <form action="submit.php" method="post" enctype="multipart/form-data">
+                <label for="name">Name:</label> <br>
+                
+                <input type="text" id="name" name="name" class="input-box"> <br>
+                <br>
+                <label for="email">Email:</label> <br>
+                <input type="email" id="email" name="email" class="input-box">
+                <br>
+                <label for="graduation-year">Graduation Year:</label><br>
+                <input type="text" id="graduation-year" name="graduation_year" class="input-box">
+                <br>
+                <label for="mobile-number">Mobile Number:</label><br>
+                <input type="tel" id="mobile-number" name="mobile_number" class="input-box">
+                <br>
+                <label for="whatsapp-number">WhatsApp Number:</label> <br>
+                <input type="tel" id="whatsapp-number" name="whatsapp_number" class="input-box">
+                <br> 
+                <label for="technical-skills">Technical Skills:</label> <br>
+                <input type="text" id="technical-skills" name="technical_skills" class="input-box">
+                <br>
+                <label for="resume">Resume:</label> <br>
+                <input type="file" id="resume" name="resume" class="input-box">
+                <br> 
+                <label for="about-me">About Me:</label> <br>
+                <textarea id="about-me" name="about_me" class="input-box"></textarea>
+                <br>
+                <input type="submit" value="Submit" class="submit-btn">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
